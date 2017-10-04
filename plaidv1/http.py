@@ -4,9 +4,9 @@
 ##############################################################################
 import os
 
-from plaid.version import __version__
-from plaid.utils import urlencode
-from plaid.errors import BadRequestError
+from plaidv1.version import __version__
+from plaidv1.utils import urlencode
+from plaidv1.errors import BadRequestError
 
 
 ALLOWED_METHODS = {'delete', 'get', 'patch', 'post'}

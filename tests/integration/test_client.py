@@ -1,8 +1,8 @@
 import pytest
 
-from plaid import Client
-from plaid.utils import to_json
-from plaid.errors import (
+from plaidv1 import Client
+from plaidv1.utils import to_json
+from plaidv1.errors import (
     ResourceNotFoundError,
     UnauthorizedError
 )

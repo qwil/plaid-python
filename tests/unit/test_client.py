@@ -1,9 +1,9 @@
-from plaid.client import (
+from plaidv1.client import (
     inject_credentials,
     inject_url,
     store_access_token
 )
-from plaid.errors import UnauthorizedError
+from plaidv1.errors import UnauthorizedError
 
 
 def test_inject_credentials_decorator():
