@@ -1,15 +1,15 @@
 import os
 import warnings
 
-from plaid.requester import (
+from plaidv1.requester import (
     delete_request,
     get_request,
     http_request,
     patch_request,
     post_request
 )
-from plaid.utils import json, urljoin, to_json, urlencode
-from plaid.errors import UnauthorizedError
+from plaidv1.utils import json, urljoin, to_json, urlencode
+from plaidv1.errors import UnauthorizedError
 
 
 def inject_url(path):

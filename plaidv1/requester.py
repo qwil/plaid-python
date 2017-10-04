@@ -1,9 +1,9 @@
 from functools import partial
 
-from plaid.errors import PLAID_ERROR_MAP
+from plaidv1.errors import PLAID_ERROR_MAP
 
-from plaid.http import _outer_http_request
-from plaid.utils import to_json
+from plaidv1.http import _outer_http_request
+from plaidv1.utils import to_json
 
 
 _base_http_request = _outer_http_request()
